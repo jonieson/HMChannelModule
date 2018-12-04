@@ -18,8 +18,8 @@ s.author       = { "RWW" => "2439535923@qq.com" }
 s.platform     = :ios
 s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/jonieson/HMChannelModule.git", :tag => s.version }
-s.source_files = 'Frameworks/NewsManager.framework/Headers/*.{h}'
-s.ios.vendored_frameworks = 'Frameworks/NewsManager.framework'
+s.source_files = 'Frameworks/HMNewsManager.framework/Headers/*.{h}'
+s.ios.vendored_frameworks = 'Frameworks/HMNewsManager.framework'
 s.resources = "Frameworks/NewsModuleSource.bundle"
 s.requires_arc = true
 s.xcconfig = { 'VALID_ARCHS' =>  'arm64 x86_64', }
