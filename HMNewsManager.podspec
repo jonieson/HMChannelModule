@@ -9,15 +9,15 @@
 Pod::Spec.new do |s|
 
 # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-s.name         = "NewsManager"
-s.version      = "0.0.1"
+s.name         = "HMNewsManager"
+s.version      = "0.0.2"
 s.summary      = "HM新闻组件"
-s.homepage     = "https://github.com/jonieson/HMmoduleFramework.git"
+s.homepage     = "https://github.com/jonieson/HMChannelModule.git"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "RWW" => "2439535923@qq.com" }
 s.platform     = :ios
 s.platform     = :ios, "9.0"
-s.source       = { :git => "https://github.com/jonieson/HMmoduleFramework.git", :tag => s.version }
+s.source       = { :git => "https://github.com/jonieson/HMChannelModule.git", :tag => s.version }
 s.source_files = 'Frameworks/NewsManager.framework/Headers/*.{h}'
 s.ios.vendored_frameworks = 'Frameworks/NewsManager.framework'
 s.resources = "Frameworks/NewsModuleSource.bundle"
