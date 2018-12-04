@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 s.name         = "HMNewsManager"
-s.version      = "0.0.2"
+s.version      = "0.0.4"
 s.summary      = "HM新闻组件"
 s.homepage     = "https://github.com/jonieson/HMChannelModule.git"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -20,20 +20,15 @@ s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/jonieson/HMChannelModule.git", :tag => s.version }
 s.source_files = 'Frameworks/HMNewsManager.framework/Headers/*.{h}'
 s.ios.vendored_frameworks = 'Frameworks/HMNewsManager.framework'
-s.resources = "Frameworks/NewsModuleSource.bundle"
+s.resources = "Frameworks/HMNewsModuleSource.bundle"
 s.requires_arc = true
 s.xcconfig = { 'VALID_ARCHS' =>  'arm64 x86_64', }
 #s.dependency "TMSDK"
 s.dependency "AFNetworking"
-s.dependency "Masonry"
 s.dependency "SDWebImage"
-s.dependency "SVProgressHUD"
-s.dependency "SDCycleScrollView"
-s.dependency "FTPopOverMenu"
+s.dependency "MJRefresh"
 s.dependency "SDAutoLayout"
 s.dependency "IQKeyboardManager"
-
-
 
 s.frameworks = "UIKit"
 

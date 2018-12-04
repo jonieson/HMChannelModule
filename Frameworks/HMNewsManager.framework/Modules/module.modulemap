@@ -1,5 +1,5 @@
-framework module NewsManager {
-  umbrella header "NewsManager.h"
+framework module HMNewsManager {
+  umbrella header "HMNewsManager.h"
 
   export *
   module * { export * }
