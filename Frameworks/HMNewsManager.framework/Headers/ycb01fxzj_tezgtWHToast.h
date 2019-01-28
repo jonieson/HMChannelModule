@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WHToast : NSObject
+@interface ycb01fxzj_tezgtWHToast : NSObject
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
 

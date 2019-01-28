@@ -15,7 +15,7 @@ typedef NS_ENUM(NSUInteger, WHToastType) {
     WHToastTypeImage,
 };
 
-@interface WHToastView : UIView
+@interface ycb01fxzj_tezgtWHToastView : UIView
 
 + (instancetype)toastWithMessage:(NSString *)message type:(WHToastType)type originY:(CGFloat)originY tipImage:(UIImage *)image;
 

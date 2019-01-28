@@ -7,9 +7,9 @@
 //  https://github.com/remember17/WHToast
 
 #import <UIKit/UIKit.h>
-#define kToastConfig ([WHToastConfig sharedInstance])
+#define kToastConfig ([ycb01fxzj_tezgtWHToastConfig sharedInstance])
 
-@interface WHToastConfig : NSObject
+@interface ycb01fxzj_tezgtWHToastConfig : NSObject
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
 + (instancetype)sharedInstance;
