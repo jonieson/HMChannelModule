@@ -16,5 +16,6 @@
 @property (nonatomic,strong)NSString *content;
 @property (nonatomic,strong)NSString *commentId;
 @property (nonatomic,assign)int priseStatus;
+@property (nonatomic,strong)NSString *linksStatus;
 +(ycb01fxzj_tezgtCommentModel *)jsonWithModel:(NSDictionary *)dic;
 @end
